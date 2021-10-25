@@ -1,0 +1,76 @@
+:host {
+ flex-grow: 1;
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+}
+.header{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background: rgba(5, 5, 5, 0.8);
+}
+.icon {
+    transform: scale(4);
+    position: relative;
+    margin-right: 2rem;
+}
+.img{
+    background-image: url("../../assets/finger.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+label {
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+div.input {
+    position: relative;
+    ;
+}
+
+div.input label {
+    position: absolute;
+    top:0;
+    transform: translateY(-50%);
+    left:5rem;
+    background: white;
+    padding: 1rem 1rem;
+}
+
+div.input input{
+    padding: 1rem 4rem;
+    font-size: 3rem;
+    outline: 0;
+    border-radius: 4px;
+    
+}
+
+div.input{
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.button input{
+    padding: 1rem 4rem;
+    font-size: 3rem;
+    outline: 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5% 0 5% 30%;
+}
+

@@ -1,0 +1,33 @@
+<p>Você está autenticado!!!</p>
+
+
+<div class="container">
+  <div class="card list-user">
+    
+    <div class="card-body">
+      
+    </div>
+  </div>
+
+
+  
+
+    
+  <mat-card-content class="table">
+    <table >
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Nome</th>
+              <th scope="col">Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let user of users$'>
+              <td>{{user.id}}</td>
+              <td>{{user.name}}</td>
+              <td>{{user.email}}</td>
+            </tr>
+          </tbody>
+        </table>
+  </mat-card-content>
